@@ -1,4 +1,6 @@
 # mjml-nunjucks-boilerplate
+Churning out those EDMs without a sweat. ;)
+
 MJML boilerplate on top of nunjucks, to support building mjml components using nunjucks.
 
 ## Motivation
@@ -17,6 +19,7 @@ Reason of creating this boilerplate:
 * [Webpack] 5.70.0 (https://webpack.js.org/)
 
 ## Stacks
+* MJML
 * Nunjucks
 * Webpack 5
 * BrowserSync
