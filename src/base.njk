@@ -1,0 +1,21 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      @media (prefers-color-scheme: dark) {
+      }
+
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    {% block mail_content %}
+    {% endblock mail_content %}
+  </mj-body>
+</mjml>

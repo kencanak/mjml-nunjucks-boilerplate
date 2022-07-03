@@ -1,0 +1,15 @@
+{% extends "base.njk" %}
+{% from 'components/header.njk' import header %}
+
+{% block mail_content %}
+{{ header() }}
+<mj-section>
+  <mj-column>
+    <mj-text>
+    Hello world
+    </mj-text>
+  </mj-column>
+</mj-section>
+{% endblock %}
+
+

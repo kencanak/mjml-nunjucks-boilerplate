@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "allowJs": true,
+    "checkJs": false,
+    "importsNotUsedAsValues": "preserve",
+    "downlevelIteration": true,
+    "lib": ["es2018", "dom", "DOM.Iterable", "ScriptHost"],
+    "declaration": false,
+    "forceConsistentCasingInFileNames": false,
+    "moduleResolution": "node"
+  },
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*.*",
+      "webpack.config.ts", "webpack.config.prod.ts"
+    ]
+  },
+  "compileOnSave": false,
+  "include": [
+  ],
+  "exclude": [
+    "node_modules/**/*.*",
+    "webpack.config.ts", "webpack.config.prod.ts"
+  ]
+}
